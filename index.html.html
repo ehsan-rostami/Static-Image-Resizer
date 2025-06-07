@@ -1,0 +1,76 @@
+<!--
+ * Static Image Resizer
+ *
+ * Author: Ehsan Rostami (ehsan-rostami)
+ * Copyright (c) 2025 Ehsan Rostami
+ *
+ * Released under the MIT License.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Image Resizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Static Image Resizer</h1>
+        <p>Resize JPG, PNG, and WebP images entirely in your browser. Settings are saved for your next visit.</p>
+
+        <section class="settings-panel">
+            <h2>1. Set Your Options</h2>
+            <div class="form-group">
+                <label for="filename">Output Filename (Optional)</label>
+                <input type="text" id="filename" placeholder="e.g., resized-image">
+                <span class="file-extension">.jpg</span>
+            </div>
+            <div class="dimension-group">
+                <div class="form-group">
+                    <label for="width">Width (px)</label>
+                    <input type="number" id="width" min="1">
+                </div>
+                <div class="form-group">
+                    <label for="height">Height (px)</label>
+                    <input type="number" id="height" min="1">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="quality">Quality (0-100)</label>
+                <input type="range" id="quality" min="0" max="100" value="80">
+                <span id="qualityValue">80%</span>
+            </div>
+        </section>
+
+        <section class="upload-panel">
+            <h2>2. Upload Your Image</h2>
+            <div id="dropArea" class="drop-area">
+                <p>Drag & Drop Image Here</p>
+                <p>or</p>
+                <button id="browseBtn" class="button">Browse Files</button>
+                <input type="file" id="fileInput" accept="image/jpeg, image/png, image/webp" hidden>
+            </div>
+            <div id="imagePreview" class="image-preview" hidden>
+                <img id="previewThumbnail" src="#" alt="Image Preview">
+                <div id="imageInfo"></div>
+            </div>
+        </section>
+
+        <section class="process-panel">
+            <button id="processBtn" class="button button-primary" disabled>Process Image</button>
+            <div id="loader" class="loader" hidden></div>
+        </section>
+
+        <section id="outputSection" class="output-section" hidden>
+             <h2>Success!</h2>
+             <p>Your image has been processed and downloaded.</p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
