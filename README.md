@@ -8,7 +8,9 @@ A simple, client-side, single-page web application for resizing images with pers
 
 ---
 
-![App Screenshot](https://ehsan-rostami.github.io/tools/image-resizer/demo.png)
+<p align="center">
+  <img src="https://ehsan-rostami.github.io/tools/image-resizer/demo.png" alt="App Screenshot" width="400">
+</p>
 
 *A quick look at the application in action.*
 
