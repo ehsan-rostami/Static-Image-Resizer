@@ -4,7 +4,11 @@ A simple, client-side, single-page web application for resizing images with pers
 
 ## 🚀 Live Demo & Screenshot
 
-**[➡️ View Live Demo](https://ehsan-rostami.github.io/tools/image-resizer/index.html)**
+<p align="center">
+  <a href="https://ehsan-rostami.github.io/tools/image-resizer/index.html" target="_blank" rel="noopener noreferrer">
+    ➡️ View Live Demo
+  </a>
+</p>
 
 ---
 
