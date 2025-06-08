@@ -2,8 +2,15 @@
 
 A simple, client-side, single-page web application for resizing images with persistent settings. Built with pure HTML, CSS, and JavaScript.
 
-**[➡️ View Live Demo]([https://ehsan-rostami.github.io/image-resizer/](https://ehsan-rostami.github.io/tools/image-resizer/index.html))**
-![App Screenshot](./demo.png)
+## 🚀 Live Demo & Screenshot
+
+**[➡️ View Live Demo](https://ehsan-rostami.github.io/tools/image-resizer/index.html)**
+
+---
+
+![App Screenshot](https://ehsan-rostami.github.io/tools/image-resizer/demo.png)
+
+*A quick look at the application in action.*
 
 
 ## ✨ Core Features
