@@ -4,12 +4,7 @@ A simple, client-side, single-page web application for resizing images with pers
 
 **[➡️ View Live Demo]([https://ehsan-rostami.github.io/image-resizer/](https://ehsan-rostami.github.io/tools/image-resizer/index.html))**
 
-<!-- 
-    TODO for you: After you deploy, take a screenshot of the application and upload it 
-    to your repository. Then, replace the line below with the link to your screenshot.
-    For example: ![App Screenshot](./screenshot.png) 
--->
-![App Screenshot](https://via.placeholder.com/600x400.png?text=./demo.png)
+[App Screenshot](https://via.placeholder.com/600x400.png?text=./demo.png)
 
 ## ✨ Core Features
 
