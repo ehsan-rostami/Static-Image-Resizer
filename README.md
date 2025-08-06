@@ -1,14 +1,12 @@
 # Static Image Resizer
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://ehsan-rostami.github.io/epw-insights/)
 
 A simple, client-side, single-page web application for resizing images with persistent settings. Built with pure HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo & Screenshot
 
-<p align="center">
-  <a href="https://ehsan-rostami.github.io/tools/image-resizer/index.html" target="_blank" rel="noopener noreferrer">
-    ➡️ View Live Demo
-  </a>
-</p>
+Experience EPW Insights live at: [Demo](https://ehsan-rostami.github.io/Static-Image-Resizer/)
 
 ---
 
@@ -31,9 +29,9 @@ A simple, client-side, single-page web application for resizing images with pers
 
 ## 💻 Technology Stack
 
-- **HTML5:** For the structure of the application.
-- **CSS3:** For modern, responsive styling.
-- **JavaScript (ES6+):** For all the application logic, including DOM manipulation and image processing with the HTML Canvas API.
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) **HTML5:** For the structure of the application.
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) **CSS3:** For modern, responsive styling.
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) **JavaScript (ES6+):** For all the application logic, including DOM manipulation and image processing with the HTML Canvas API.
 
 ## 🚀 How to Use
 
@@ -50,8 +48,3 @@ A simple, client-side, single-page web application for resizing images with pers
 
 This project is open-source and available under the **[MIT License](LICENSE)**.
 
----
-
-Authored and maintained by **Ehsan Rostami**.
-
-[My GitHub Profile](https://github.com/ehsan-rostami)
