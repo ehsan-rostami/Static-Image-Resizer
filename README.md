@@ -10,13 +10,6 @@ Experience EPW Insights live at: [Demo](https://ehsan-rostami.github.io/Static-I
 
 ---
 
-<p align="center">
-  <img src="https://ehsan-rostami.github.io/tools/image-resizer/demo.png" alt="App Screenshot" width="400">
-</p>
-
-*A quick look at the application in action.*
-
-
 ## ✨ Core Features
 
 - **Entirely Client-Side:** No server needed. All processing happens in your browser.
@@ -57,4 +50,5 @@ Experience EPW Insights live at: [Demo](https://ehsan-rostami.github.io/Static-I
 ## 📜 License
 
 This project is open-source and available under the **[MIT License](LICENSE)**.
+
 
