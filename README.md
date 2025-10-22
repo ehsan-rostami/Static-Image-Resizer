@@ -25,7 +25,15 @@ Experience EPW Insights live at: [Demo](https://ehsan-rostami.github.io/Static-I
 - **Aspect Ratio Lock:** Automatically calculates width or height to maintain the original aspect ratio.
 - **Quality Control:** Adjust the output JPEG quality with a simple slider to balance quality and file size.
 - **Responsive Design:** Works great on both desktop and mobile devices.
-- **Supported Formats:** Accepts `JPG`, `PNG`, and `WebP` and outputs as `JPG`.
+
+## 🚀 New Features
+
+- **Auto-Cropping:** Automatically removes blank space (e.g., white borders) around the main subject of an image.
+
+- **Format Conversion:**
+
+- Convert JPG images to PNG, making a chosen color transparent.
+- Convert transparent PNGs to JPG, filling the background with a chosen color.
 
 ## 💻 Technology Stack
 
@@ -38,11 +46,13 @@ Experience EPW Insights live at: [Demo](https://ehsan-rostami.github.io/Static-I
 1.  **Visit the website.**
 2.  **Set your desired options:**
     - Enter a target `width` or `height` in pixels.
-    - Adjust the `quality` slider.
+    - Select the `Output Format` (JPG or PNG).
+    -(Optional) Enable `Auto-crop blank` area.
+    - (Optional) Adjust the `quality` slider for JPG output.
     - (Optional) Provide a custom output filename.
 3.  **Upload an image** by dragging it onto the drop zone or using the "Browse Files" button.
 4.  Click the **"Process Image"** button.
-5.  Your resized image will be automatically downloaded by your browser!
+5.  Your processed image will be automatically downloaded by your browser!
 
 ## 📜 License
 

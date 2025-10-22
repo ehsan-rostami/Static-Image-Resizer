@@ -17,14 +17,16 @@
 
     <main class="container">
         <h1>Static Image Resizer</h1>
-        <p>Resize JPG, PNG, and WebP images entirely in your browser. Settings are saved for your next visit.</p>
+        <p>Resize JPG, PNG, and WebP images entirely in your browser. Now with auto-cropping and format conversion.</p>
 
         <section class="settings-panel">
             <h2>1. Set Your Options</h2>
             <div class="form-group">
                 <label for="filename">Output Filename (Optional)</label>
-                <input type="text" id="filename" placeholder="e.g., resized-image">
-                <span class="file-extension">.jpg</span>
+                <div class="filename-group">
+                    <input type="text" id="filename" placeholder="e.g., resized-image">
+                    <span id="fileExtension" class="file-extension">.jpg</span>
+                </div>
             </div>
             <div class="dimension-group">
                 <div class="form-group">
@@ -37,9 +39,25 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="quality">Quality (0-100)</label>
+                <label for="outputFormat">Output Format</label>
+                <select id="outputFormat">
+                    <option value="jpeg">JPG</option>
+                    <option value="png">PNG</option>
+                </select>
+            </div>
+            <div id="qualityWrapper" class="form-group">
+                <label for="quality">Quality (JPG Only)</label>
                 <input type="range" id="quality" min="0" max="100" value="80">
                 <span id="qualityValue">80%</span>
+            </div>
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="autoCrop">
+                <label for="autoCrop">Auto-crop blank area</label>
+            </div>
+            <div id="formatOptions" class="form-group" hidden>
+                <label for="bgColor">Color for Transparency/Background</label>
+                <input type="color" id="bgColor" value="#FFFFFF">
+                <span id="bgColorHelp" class="help-text">Color to make transparent (JPG to PNG) or background color (PNG to JPG). Also used for cropping.</span>
             </div>
         </section>
 
